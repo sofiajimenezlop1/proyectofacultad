@@ -1,0 +1,51 @@
+.header_div{
+    width: 100%;
+    display: flex;
+    background-color: #333;
+    font-family: Verdana, sans-serif;
+    position: relative ;
+}
+.header_img{
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+}
+.header h1{
+  font-family: "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;  
+  margin-top: 10px;
+}
+  
+
+
+
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+    border: 2px red solid;
+    position: absolute;
+    right: 0;
+    }
+  
+  .social-icons li {
+    margin: 0 10px;
+
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #f1c40f;
+  }
+  .redes_icon{
+    font-size: 30px;
+  }
