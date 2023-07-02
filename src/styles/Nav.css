@@ -1,9 +1,11 @@
 .nav {
+    font-family: inherit;
     width: 100%;
-    background-color: #f1c40f;
+    height: 50px;
+    background-color: #FFC300;
     color: #fff;
-    padding: 5px;
     display: flex;
+    align-items: center;
   }
   
 
@@ -16,7 +18,6 @@
   .nav_ul_li {
     display: inline-block;
     margin-right: 20px;
-    border: 2px red solid;
   }
   
   .nav_ul_li:last-child {
@@ -27,41 +28,56 @@
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 15px;
-    transition: color 0.3s ease-in-out;
+    font-size: 18px;
   }
   
   .nav_ul_li a:hover {
-    color: #333;
+    color: #73C6B6;
     
   }
  .btn_ofAca{
   border: none;
   cursor:pointer;
-  background-color: #f1c40f;
+  background-color: #FFC300;
   position: relative;
   margin-right: 5px;
  }
  
 
 
-
- .menu_lista{
-  list-style: none;
-  width: 250px;
+  .div_container-menu{
+  position: absolute;
+  display: flex;
+  z-index: 1000;
+  opacity: .8;
+  border: 1px #3a352028 solid;
+  border-radius: 10px;
   background-color: #333;
-  position:absolute;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+ .menu_lista{
+  width: 250px;
+  list-style: none;
  }
 
  .menu_lista a{
+  display: block;
   text-decoration: none;
+  font-size: 14px;
   color: #fff;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 5px;
-  position: relative;
  }
  .menu_lista a:hover{
-color: #f1c40f; 
+   color: #f1c40f;   
+ } 
+
+ .menu_lista-titulo h4{
+  padding: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .div_container-menu{
+    display: block;
+  }
+  
 }

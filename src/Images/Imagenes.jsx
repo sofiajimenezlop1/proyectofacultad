@@ -1,17 +1,19 @@
 import logo from './logo.png';
 import logo2 from './logo (2).png';
-import facultad from './facultad.jpeg';
+import facultad from './facultad.jpg';
 import facultadentrada from './facultadentrada.jpeg';
-import facultadfondo from './Facultadfonfo.jpeg';
-import facultadpasillo from './facultadpasillo.jpeg';
+import facultadfondo from './facultadfondo.jpg';
+import facultadpasillo from './facultadpasillo.jpg';
 import logoconcep from './logoConcep.png';
 
 import programacion from './programación}.jpg';
 import higieneyseg from './higieneyseguridad.jpg';
-import sistemas from './ingenieriasistemas.png';
+import sistemas from './ingenieriasistemas.jpeg';
 import mecanica from './ingenieriamecanica.png';
 import electronica from './ingenieriaelectronica.jpg';
 import mecatronica from './mecatronica.png';
+
+import logofooter from './logoFooter.png'
 
 
 export default{
@@ -28,5 +30,7 @@ export default{
     "sistemas" : sistemas,
     "mecanica" : mecanica,
     "electronica" : electronica,
-    "mecatronica" : mecatronica
+    "mecatronica" : mecatronica,
+
+    "logofooter" : logofooter,
 }

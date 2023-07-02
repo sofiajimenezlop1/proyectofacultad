@@ -8,8 +8,6 @@ function Header() {
         <header className='header'>
           <div className='header_div'>
             <img className='header_img' src={Imagenes.logo}/>
-            <h1>Anexo Concepcion</h1>
-
             <ul className="social-icons">
               <li><a href="#"><FiFacebook className="redes_icon"/></a></li>
               <li><a href="#"><FiTwitter className="redes_icon"/></a></li>
