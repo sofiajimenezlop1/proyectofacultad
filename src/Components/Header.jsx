@@ -10,10 +10,10 @@ function Header() {
           <div className='header_div'>
             <img className='header_img' src={Imagenes.logo}/>
             <ul className="social-icons">
-              <li><a href="#"><FiFacebook className="redes_icon"/></a></li>
-              <li><a href="#"><FiTwitter className="redes_icon"/></a></li>
-              <li><a href="#"><FiInstagram className="redes_icon"/></a></li>
-              <li><a href="#"><FiYoutube className="redes_icon"/></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100063607237824" target='blank'><FiFacebook className="redes_icon"/></a></li>
+              <li><a href=" https://twitter.com/utntucuman?t=bAIm6Uye2DypH1tCpgmKIQ&s=08 " target='blank'><FiTwitter className="redes_icon"/></a></li>
+              <li><a href="https://www.instagram.com/utntucuman/" target='blank'><FiInstagram className="redes_icon"/></a></li>
+              <li><a href="https://www.youtube.com/@UTNFRT" target='blank'><FiYoutube className="redes_icon"/></a></li>
             </ul>
 
           </div>
