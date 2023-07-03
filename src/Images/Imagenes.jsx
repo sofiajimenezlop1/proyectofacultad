@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import logo from './logo.png';
 import logo2 from './logo (2).png';
 import facultad from './facultad.jpg';
@@ -12,6 +13,14 @@ import sistemas from './ingenieriasistemas.jpeg';
 import mecanica from './ingenieriamecanica.png';
 import electronica from './ingenieriaelectronica.jpg';
 import mecatronica from './mecatronica.png';
+import ingsis from './ingsis.jpg';
+import ingmec from './ingmec.jpg';
+import ingelec from './ingelec.jpg';
+import prog from './programacion.jpg';
+import hys from './hys.jpg';
+import mecat from './mecat.jpg';
+
+import error from './error-404.jpg';
 
 import logofooter from './logoFooter.png'
 
@@ -31,6 +40,15 @@ export default{
     "mecanica" : mecanica,
     "electronica" : electronica,
     "mecatronica" : mecatronica,
+
+    "ingsis": ingsis,
+    "ingmec": ingmec,
+    "ingelec": ingelec,
+    "prog":prog,
+    "hys":hys,
+    "mecat":mecat,
+
+    "error": error,
 
     "logofooter" : logofooter,
 }

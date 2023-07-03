@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'
 import '../styles/Nav.css'
 import { IoIosArrowDown } from 'react-icons/io';
@@ -27,16 +28,16 @@ function Nav() {
                   <h4>Carreras de grado</h4>
                 </li>
                 <li><Link to={'/IngSis'}>Ingenieria en Sistema de Informacion</Link></li>
-                <li><a href='#'>Ingenieria Mecanica</a></li>
-                <li><a href='#'>Ingenieria Electronica</a></li>
+                <li><Link to={'/IngMec'}>Ingenieria Mecanica</Link></li>
+                <li><Link to={'/IngElec'}>Ingenieria Electronica</Link></li>
               </ul>
               <ul className='menu_lista'>
                 <li className='menu_lista-titulo'>
                   <h4>Carreras de pregrado</h4>
                 </li>
-                <li><a href='#'>Tecnicatura Universitaria en Programacion</a></li>
-                <li><a href='#'>Tecnicatura Universitaria en Higuiene y seguridad</a></li>
-                <li><a href='#'>Tecnicatura Universitaria en Mecatronica</a></li>
+                <li><Link to={'/Prog'}>Tecnicatura Universitaria en Programacion</Link></li>
+                <li><Link to={'/HyS'}>Tecnicatura Universitaria en Higuiene y seguridad</Link></li>
+                <li><Link to={'/Mecatronica'}>Tecnicatura Universitaria en Mecatronica</Link></li>
               </ul>
             </div>
           </>

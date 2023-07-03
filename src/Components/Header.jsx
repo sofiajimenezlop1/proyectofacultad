@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import {FiFacebook,FiTwitter,FiInstagram,FiYoutube} from 'react-icons/fi'
 import '../styles/Header.css'
 import Imagenes from '../Images/Imagenes';

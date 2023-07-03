@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "../styles/Footer.css";
 import Imagenes from "../Images/Imagenes";
@@ -6,9 +7,21 @@ import { FaEnvelope } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 import { FiMapPin } from "react-icons/fi";
 
-import Button from 'react-bootstrap/Button';
+import { useForm } from "react-hook-form";
+
+import Button from "react-bootstrap/Button";
 
 function Footer() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) => {
+    alert("formulario enviado correctamente");
+  };
+
   return (
     <footer className="footer">
       <div className="logofooter">
@@ -30,20 +43,29 @@ function Footer() {
             </p>
           </div>
           <div className="form-container">
-            <form className="footer__form">
+            <form className="footer__form" onSubmit={handleSubmit(onSubmit)}>
               <div className="form__section">
                 <input
                   type="text"
                   className="form__imput"
                   placeholder="Nombre"
+                  name="nombre"
+                  {...register("nombre", {
+                    required: true,
+                    maxLength: 30,
+                  })}
                 />
+                  {errors.nombre?.type === 'required' && <p className='p-error'>El campo nombre es obligatorio </p>}
+                  {errors.nombre?.type === 'maxLength' && <p>El campo nombre no puede tener mas de 30 caracteres </p>}
               </div>
               <div className="form__section">
                 <input
                   type="email"
                   className="form__imput"
                   placeholder="Mail"
+                  {...register('email', {required: true})} 
                 />
+                {errors.email?.type === 'required' && <p className='p-error'>El campo email es obligatorio </p>}
               </div>
               <div className="form__section">
                 <textarea
@@ -52,7 +74,7 @@ function Footer() {
                 ></textarea>
               </div>
               <div>
-                <Button variant="light">Enviar</Button>
+                <Button variant="light" type="submit" value="enviar">Enviar</Button>
               </div>
             </form>
           </div>
@@ -63,8 +85,8 @@ function Footer() {
           <div className="row">
             <div className="col-md-12">
               <p className="text-center">
-                © {new Date().getFullYear()} Universidad Tecnologica Nacional. Todos los derechos
-                reservados.
+                © {new Date().getFullYear()} Universidad Tecnologica Nacional.
+                Todos los derechos reservados.
               </p>
             </div>
           </div>

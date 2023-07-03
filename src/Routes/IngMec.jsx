@@ -1,21 +1,18 @@
 import React from 'react'
 import Header from '../Components/Header';
-import Body from '../Components/Body';
 import Footer from '../Components/Footer';
 import Nav from '../Components/Nav';
+import BodyIngMec from '../Components/BodyIngMec';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-
-function Home() {
+function IngMec(){
   return (
     <div>
         <Header/>
-        <Nav />
-        <Body>
-        </Body>
+        <Nav/>
+        <BodyIngMec/>
         <Footer/>
     </div>
   )
 }
 
-export default Home;
+export default IngMec;

@@ -1,21 +1,18 @@
 import React from 'react'
 import Header from '../Components/Header';
-import Body from '../Components/Body';
 import Footer from '../Components/Footer';
 import Nav from '../Components/Nav';
+import BodyProg from '../Components/BodyProg';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-
-function Home() {
+function Prog(){
   return (
     <div>
         <Header/>
-        <Nav />
-        <Body>
-        </Body>
+        <Nav/>
+        <BodyProg/>
         <Footer/>
     </div>
   )
 }
 
-export default Home;
+export default Prog;

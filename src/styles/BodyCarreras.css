@@ -1,0 +1,11 @@
+.carerras_info{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div_container-carreras img{
+    opacity: .4;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
