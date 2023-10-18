@@ -1,8 +1,8 @@
 .nav {
-    font-family: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     height: 50px;
-    background-color: #FFC300;
+    background-color: #28347F;
     color: #fff;
     display: flex;
     align-items: center;
@@ -13,11 +13,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
   }
   
   .nav_ul_li {
     display: inline-block;
     margin-right: 20px;
+    padding: 10px;
   }
   
   .nav_ul_li:last-child {
@@ -32,13 +34,13 @@
   }
   
   .nav_ul_li a:hover {
-    color: #73C6B6;
+    color: #9C9CFA;
     
   }
  .btn_ofAca{
   border: none;
   cursor:pointer;
-  background-color: #FFC300;
+  background-color: #28347F;
   position: relative;
   margin-right: 5px;
  }
@@ -67,7 +69,7 @@
   color: #fff;
  }
  .menu_lista a:hover{
-   color: #f1c40f;   
+   color: #9C9CFA;   
  } 
 
  .menu_lista-titulo h4{
@@ -83,4 +85,8 @@
   .nav_ul_li a {
     font-size: 15px;
   }
+}
+
+.dropd{
+  margin: 10px;
 }

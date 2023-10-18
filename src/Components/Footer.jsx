@@ -33,13 +33,13 @@ function Footer() {
             <h5>Extension Aulica Concepcion</h5>
             <h6>Contacto</h6>
             <p>
-              <FiMapPin /> Dirección: 4146, Concepción, Argentina
+              <FiMapPin /> Dirección: Raul Alfonsin 70, Concepción/Tucuman
             </p>
             <p>
-              <FiPhone /> Teléfono: +1 3865 455002
+              <FiPhone /> Teléfono: +54 9 3865-455002
             </p>
             <p>
-              <FaEnvelope /> Email: info@universidadabc.edu
+              <FaEnvelope /> Email: info@unifrtconcep.edu.com.ar
             </p>
           </div>
           <div className="form-container">

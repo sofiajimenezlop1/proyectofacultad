@@ -1,7 +1,7 @@
 .header_div{
     width: 100%;
     display: flex;
-    background-color:#FF5733;
+    background-color: #28347F;
     font-family: Verdana, sans-serif;
     position: relative ;
 }
@@ -35,7 +35,7 @@
   }
   
   .social-icons a:hover {
-    color: #73C6B6;
+    color: #9C9CFA;
   }
   .redes_icon{
     font-size: 30px;
